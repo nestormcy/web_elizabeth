@@ -7,10 +7,16 @@ export default {
     theme: {
         extend: {
             colors: {
-                vinotinto: '#800020',
-                lightGray: '#F5F5F5',
+                // Premium Brand Colors
+                cream: '#F5F5DC',
+                burgundy: '#4A0E0E',
+                gold: '#D4AF37',
+                // Supporting Colors
                 pureWhite: '#FFFFFF',
                 matteBlack: '#1A1A1A',
+                darkWood: '#3E2723',
+                vinotinto: '#4A0E0E', // Keeping alias for compatibility during migration
+                lightGray: '#F5F5DC', // Mapping to cream
             },
             fontFamily: {
                 serif: ['"Playfair Display"', 'serif'],

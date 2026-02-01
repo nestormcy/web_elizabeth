@@ -26,14 +26,19 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.2 }}
                     className="md:w-1/2"
                 >
-                    <div className="inline-block px-4 py-1 mb-4 border border-vinotinto/30 rounded-full text-vinotinto text-sm font-semibold tracking-wide bg-vinotinto/5 backdrop-blur-sm">
-                        ABOGADA PENALISTA & CORPORATIVA
-                    </div>
-                    <h1 className="text-5xl md:text-7xl font-serif font-bold text-matteBlack mb-6 leading-tight">
-                        Defensa Legal de <span className="text-vinotinto italic">Alta Precisión</span>
+                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-matteBlack mb-4 leading-tight">
+                        Dra. Elizabeth Páez: <span className="text-burgundy italic">17 Años de Resultados</span> y Seguridad Jurídica
                     </h1>
-                    <p className="text-lg text-gray-600 mb-8 max-w-lg leading-relaxed border-l-4 border-vinotinto pl-4">
-                        Estrategia jurídica con visión integral. Protegemos su legado y libertad con una ética inquebrantable y resultados contundentes.
+                    <div className="mb-6 space-y-2">
+                        <p className="text-base md:text-lg text-gray-700 font-medium">
+                            <span className="text-burgundy font-bold">Asesora Nacional</span> | Egresada de la Universidad Bicentenaria de Aragua (UBA)
+                        </p>
+                        <p className="text-sm md:text-base text-gray-600 border-l-4 border-gold pl-4">
+                            Especialista en Gestión Mercantil y Regularización Agraria
+                        </p>
+                    </div>
+                    <p className="text-base md:text-lg text-gray-600 mb-8 max-w-lg leading-relaxed italic">
+                        "Elegancia que genera confianza. No es una web de servicios, es una credencial de prestigio."
                     </p>
 
                     <motion.button
@@ -53,13 +58,16 @@ const Hero = () => {
                     className="md:w-1/2 mt-12 md:mt-0 relative"
                 >
                     {/* Abstract blobs behind */}
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-vinotinto/5 rounded-full blur-3xl opacity-50" />
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-burgundy/10 rounded-full blur-3xl opacity-50" />
 
                     {/* Image Container with Depth */}
-                    <div className="relative z-10 glass-panel p-4 rounded-2xl rotate-2 hover:rotate-0 transition-transform duration-500 ease-out">
-                        <div className="bg-gray-200 rounded-xl overflow-hidden h-[600px] w-full flex items-center justify-center relative">
-                            <img src="/lawyer-new.jpg" alt="Abogada" className="object-cover w-full h-full" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                    <div className="relative z-10 p-2 rounded-2xl hover:scale-105 transition-transform duration-500 ease-out">
+                        <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-gold/30">
+                            <img
+                                src="/hero-main.jpg"
+                                alt="Dra. Elizabeth Páez - Gestión Jurídica Integral"
+                                className="object-cover w-full h-auto"
+                            />
                         </div>
                     </div>
                 </motion.div>
